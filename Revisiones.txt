@@ -1,0 +1,362 @@
+REVISION 1487.
+1_Cambio del apartado visual del sistema implementando un Dashboard mas 
+inteligente y eficiente.
+2_Implementada conexión Mysql para la llamada de alerta de actualizaciones del sistema.
+3_Nuevo Buscador  de registros incorporado en el sistema mejorando en un 
+100% la efectividad de búsqueda de datos.
+4_Nueva Notificación de productos o materiales sin sctock y modulo anidado en el dashboard.
+5_Nueva Notificación de eventos enviados desde el servidor Planeta Office.
+6_Nueva Notificación de actualizaciones del sistema.
+7_Mejora en la seguridad de datos delas copias de seguridad realizadas.
+8_Gráfica de salida de materiales incluida en el dasboard.
+9_Agregado apartado de métricas del sistema en el dashboard
+10_Añadida nueva moneda(Sin Formato) para estandarizar los valores del sistema.
+11_Ahora todos los módulos del sistema son de tipo Splash, lo que brinda
+ una apariencia mas moderna al sistema.
+12_Nueva notificación de actualizacion en la barra de tareas de Windows (No Invasiva).
+13_Agrado los campos Fecha Caducidad, Margen Caducidad y Palomita de activación 
+Caducidad de Productos, para aquellos productos peredecibles o que cuenten con fecha de 
+caducidad.
+14_Agregado modulo anidado en dashboard para la muestra de los Productos prontos a 
+Caducir en nuestro inventario.
+15_Nuevo botón(Por Caducar) de notificación en dashboard principal del sistema.
+16_Resuelto todos los campos tipo lista desplegables sin referencia circular.
+17_Editado modulo Mi Perfil, el cual hereda la apariencia del modulo cuentas de usuarios.
+18_Mejorada las consultas del sistema para aligerar la carga de procesos, para la emisión 
+de informes del sistema.
+19_Preparada la estructura de la base de datos para una importante mejora que se 
+incluirá en la siguiente actualizacion.
+
+REVISION 1477.
+1_Eliminado muestreo de productos en modulo salida material no disponibles en inventario
+2_Agregado muestra de stock,Talla,Color y Dimensiones al detalle en la carga de productos 
+en modulo salida material
+3_Eliminado muestreo de productos en modulo Equipos Obra no disponibles en inventario
+4_Eliminado muestreo de productos en modulo Equipos a Cargo no disponibles en inventario
+5_Editado Modulo Registro del Sistema
+6_Editado Modulo Informacion del Sistema
+7_Editado Modulo Cuentas de Usuarios
+8_Nuevo Modulo Procesos incluido
+9_Agregados nuevos campos Talla, Color, Dimensiones y Producto Vinculado a modulo productos
+10_Nuevo Modulo Pedidos internos
+11_Nuevo boton de notificacion Pedidos Internos
+12_Agregado hipervinculo a modulo Ordenes de compras desde pantalla O/C Pendientes
+13_Agregado hipervinculo a modulo Productos desde pantalla Stock Critico Actual
+14_Agregado hipervinculo a modulo Pedido Internos desde pantalla Pedidos Internos
+15_Agregado Campo moneda preferida en Modulo Registro del Sistema para la seleccion de la 
+divisa que se utilizara en el sistema e informes.
+16_Solucionado error llamada a tabla factura en Modulo centro de impresion
+17_Agregado 3 nuevos informes en Modulo Pedidos Intenernos
+18_Editado Modulo Entorno de Red
+19_Editado Modulo Otras APP
+20_Editado Modulo Soporte Tecnico
+21_Editado Modulo Desarrollador
+22_Agregados campos Valor unitario y Total Valor en Modulo Cotizaciones
+23_Editado todos los informes del sistema para soporte de muestra de campos monedas variables
+
+REVISION 1475.
+1_Editado modulo de centro de impresion en su presentacion grafica e incluido 77 nuevos informes
+disponibles para su impresion.
+2_Añadido nuevo privilegio "Notificaciones de Actualizaciones"
+3_Añadido nuevo modulo de Importacion de datos desde excel para modulos, Proveedores, Materiales y
+Personal Obra.
+4_Editado todos los botones del los informes correspondientes del sistema
+5_Agregado centrado automatico en pantalla para el sistema
+
+REVISION 1473.
+1_Añadido nuevo privilegio "Duplicar Registros"
+2_Añadido nuevo boton Duplicar registros en Modulos correspondientes
+3_Mejorado Modulo Cuentas de Usuarios
+4_Mejorado Modulo Donaciones
+5_Nuevo Modulo Envio de Correos
+6_Vinculacion directa de privilegio actualizaciones a notificacion en pantalla
+de actualizaciones
+7_Mejorado Modulo Desarrollador del sistema
+8_Mejora de boton de notificaciones en dashboard del sistema
+9_Cambio a boton de busqueda que realiza la llamada a la consulta 
+de registros del sistema
+10_Moificado Archivo testigo de comprobacion de errores
+11_Verificacion y correcion de errores del sistema
+12_Solucion a cambio de cursor en modulos de acceso a Youtube y Tienda Online
+13_Eliminado Modulo de Actualizaciones y cambiado por llamada directa a la nube de 
+actualizaciones.
+14_Editado el tamaño de todos los label del sistema para evitar el recorte de informacion
+en los modulos del sistema
+
+REVISION 1462.
+1_Solucion en llamada modulo inventarios
+2_Solucion llamada eliminar en boton de modulo asignar privilegios
+3_Editado botones de navegacion en modulo asignar privilegios
+4_Solucion vinculacion elementos dependientes en modulo cotizaciones
+5_Modificado campos ciudad y provincia , ahora tambien tienen la funcionalidad de 
+referencia circular
+6_Editado Modulo mis privilegios de usuario para una mejor visualizacion.
+
+REVISION 1461.
+1_Edicion importante en todos los modulos del sistema permitiendo ahora un mayor espacio de
+trabajo.
+2_Todos los modulos de trabajo ahora cuentan con la integracion de un nuevo informe 
+pre-establecido que imprime el registro actual del modulo.
+3_Modificacion completa en la estructura de las notificaciones, permitiendo ahora la muestra de
+un avatar del que redacta el mensaje.
+4_Ahora tu perfil de usuario cuanta con la opcion de agregar un avatar a mostrar
+5_Se han agregado mas de 15 nuevos privilegios que se iran incorporando segun corresponda 
+6_Nuevo privilegio activo "Enviar Correos"
+7_Puedes descargar avatares directamente desde tu perfil de usuario para utilizar
+8_Nueva notificacion visual añadida en el dasboard "Ordenes de Compras pendientes"
+9_Ahora el inventario tiene modulo propio
+10_Las tablas del sistema no indexadas han sido vinculadas por lo tanto el sistema sufrio un 
+cambio importante en su estructura de trabajo.
+11_Todas las listas desplegables del sistema ahora cuentan con el sistema de referencia circular
+12_Se han perfeccionado la estrutura y datos de todas las listas desplegables del sistema
+13_Eliminado el metodo mercado pago del modulo donaciones 
+14_Ahora los campos id ahora son tipo texto lo que unifica el mismo para distintos paises
+15-Ahora los campos telefono o Fono son tipo texto lo que unifica el mismo para distintos paises
+16_La recepcion de material ahora permite el ingreso de material o producto con un valor distinto
+al asignado en el modulo Materiales o Productos.
+17_En modulo Recepcion de material puedes ver el valor de un producto al posicionarte sobre el
+18_Realizado revision de seguridad de la base de datos del sistema.
+
+REVISION 1454.
+1_Solucion errores encontrados en notificaciones presentes en el dashboard
+
+REVISION 1453.
+1_Nueva Dashboard verion 5.3 mejoraro con integracion de nuevos elementos
+2_Ahora el sistema te muestra notificaciones en el Dashboardson tipo 
+3_Nuevo sistema de busqueda de registros integrado al sistema disponible desde 
+el Dashboard
+4_Modificado completamente el modulo creacion de notas
+5_Ahora las notas solo son visibles para quien fue enviada y quien las ha creado 
+6_nuevo apartado de novedades donde veras todas las novedades practicas de cada revicios
+7_Las salidas de materiales ya no permiten valores en cero
+8_Las salidas de materiales ya no permiten valores que superen el stock actual del sistema
+
+REVISION 1450.
+1_Añadido nuevo apartado de sistema Guia practica para que conoscas todos los detalles 
+del uso de la aplicacion.
+2_Eliminacion de botones Video tutorial de todos los modulos del sistema.
+
+REVISION 1449.
+1_Solucionado error peticion Scrip causado por cambio se servicio Hosting
+
+REVISION 1448.
+1_Solucion error listas desplegables campo unidad en modulo materiales o productos
+2_Solucion error listas desplegables campo Autorizado por, Partida destino y Area destino
+en modulo Herramienta o Equipo a Cargo.
+
+REVISION 1447.
+1_Solucion Error codigo remanente Modulo Herramienta o Equipo a Cargo
+2_Eliminacion de botones Backup y Salir del sistema de apartados secundarios
+
+REVISION 1445.
+1_Nuevo dashborad que ha cambiado el sistema en su totalidad
+2_Añadido apartado de Donaciones
+3_Añadido apartado Desarrollador
+4_Añadido apartado Mi perfil de usuario
+5_Añadido apartado Soporte tecnico
+6_Añadido apartado Encuesta APP
+7_Añadido apartado Otras Aplicaciones
+8_Añadido apartado Mi canal Planeta Office
+9_Añadido apartado Tienda online
+10_Añadido apartado Buq
+11_Añadido apartado Mis Backup
+12_Añadido apartado Entorno de Red
+13_Añadido apartado Revisiones
+14_Mejora seguridad login
+15_Ahora puedes ver tu contraseña en apartado login
+16_Nuevo sistema de configuracion de resolucion
+17_Mas espacio en todas las pestañas de mas informacion en todos los modulos del sistema
+18_Eliminado graficas dinamicas presentes en modulos
+19_Eliminado tablas dinamicas presentes en modulos
+20_Nuevo sistema de actualizacion mediante descarga directa desde el Dashboard
+21_Ahora el modulo crear nota permite adjuntar achivos para que las pueda ver el receptor.
+22_Filtro aplicado en modulo de vista de notas para que solo muestre las notas 
+correspondientes al usuario activo en el sistema.
+23_Eliminado acceso directo a cotizaciones desde modulo orden de compra, ya que, esta
+presente en el dashboard.
+24_Solucionado ERROR de llamada informe recepcion de productos desde informe salida de materiales
+25_Solucionado configuracion de pagina que precentaban recorte por el formato de la misma
+26_Añadido nuevo privilegio Notificacion Inventario
+27_Añadido nuevo privilegio Notificacion Stock Critco
+28_Eliminado privilegio listas desplegables ya que no se utilizaran mas en esta version
+29_Añadido nuevo privilegio Entorno de Red
+
+REVISION 1443.
+1_Actualizacion de seguridad acumulativa
+2_Mejora e insercion de nuevo boton acceso actualizaciones
+3_Eliminacion de consultas rebundantes que causan referencias circulares, optimizando
+los tiempos de carga.
+4_Agregada referencia circular en listas desplegables del sistema, ahora toma 
+directamente la informacion desde las tablas, por lo tanto se elimina el modulo 
+herramientas.
+
+REVISION 1441.
+1_Incorporado sistema de configuracion para redes de trabajo incluido en modulo 
+herramientas administrativas pesstaña "Entorno de Red".
+2_Modificada pestala "Soporte Tecnico"perteneciente a modulo herramientas administrativas.
+3_Incluido nuevo video tutorial de configuracion del sistema para entornos de red, 
+disponibles en la guia practica de la aplicacion.
+4_Eliminado codigo rebundante en modulo Orden de compra.
+
+REVISION 1435.
+1_Cambio en codigo fuente 
+para mejora de la generacion de la copia de seguridad del sistema y mas compatibilidad
+añadida para entornos de red
+2_Cambio en codigo fuente de login para mayor fortaleza 
+3_Cambio en la estructura del login , añadido campo resoluciones
+4_Seleccion inmediata de resolucion en login de acceso de usuarios
+5_Eliminacion de modulo seleccion de resolucion de sistema
+6_Se modifica el sistema para reestablecer contraseñas haciendola mas sencilla 
+e intuitiva
+7_Añadido sistema de alertas en estado de inventarios con productos en valores negativos
+8_Añadido sistema de alertas en estao de stock critico con productos que no cumplen 
+los valores establecidos
+9_Nuevo privilegio (Activar notificaciones)añadido en herramientas administrativas 
+para la llamada de notificaciones de alerta stock critico e inventarios
+10_Nuevo modulo de Inventarios Valorizado, disponible en dashboard del sistema.
+11_Cambio de iconos Proveedores, Materiales, Orden de Compra, Recepcion de Pedidos
+en dashboard
+12_Añadido apartado de informes valorizados en centro de impresion extendido
+13_Todos los informes pre-establecidos cuentan con vista valorizada
+14_Nuevo Modulo de Termino y Condiciones de Uso Aplicaciones CGI4.
+15_Modificados centros de impresion de los siguientes modulos: Materiales,Ordenes
+de compras, Recepcion de Pedidos y Salida de materiales. Esto para la emision de 
+informes valorizados en el sistema
+16_Optimizacion de subformilarios de informacion en todos los modulos del sistema.
+17_Modificacion de subformalarios en Materiales, Ordenes de Compras, Recepcion de 
+pedidos y Salida de Materiales. Esto para añadir campos valorizados a los mismos.
+18_Cambio Grozor de linea para evitar saturacion de pantalla en centros de impresion 
+de todos los modulos del sistema.
+19_Edicion de informes Materiales, Ordenes de Compras, Recepcion de Pedidos y Salida
+de Materiales. Para vista valorizada de la informacion.
+20_ Informes pre-establecidos modificados para su vista valorizada.
+
+REVISION 1426 V2.
+1_Solucion desbordamiento codigo bva modulo Orden de Compra
+
+REVISION 1426 V1.
+1_Nuevo modulo de soporte web añadido en el dasboard
+2_Todos los ipervinculos han sido redirigido 
+3_Mejora e implementacion web apartado de usarios
+4_Puedes dejar tus comentarios en el apartado de usuario en pos de mojora del sistema
+5_Puedes contactarnos directamente desde nuestra web con nuestro nuevo chat 
+para clientes en linea
+6_Reforsamiento en la tercera linea de codigo login 
+7_Nuevo sistema de notificacion para que sepas que ya hay nuevas actualizaciones 
+disponibles.
+
+REVISION 1423.
+1_Actualizacion importante de seguridad en vulnerabilidad del sistema
+
+REVISION 1421.
+1_Modificacion de la totalidad de iconos de youtube por Guia Practica y redireccionado 
+a Sitio Web 
+2_Creacion de Guia Practica en Portal Oficial disponiblen en el dasboard y modulos 
+del sistema
+
+REVISION 1419.
+1_ Modificacion completa de sistema de recuperacion de contraseñas y usuarios
+2_solucion en problema de seguridad importante en login de administradores
+
+REVISION 1417.
+IMPORTANTE ANTES DE ACTUALIZAR!
+Esta actualizacion no es retrocompatible, por lo tanto requiere una actualizacion
+ de los datos manualmente, servicio que lo efectua Planeta Office.
+
+1_Cambio importante en la estructura de datos en la totalidad del sistema
+2_Implementacion de modulo de Stock Critico en entorno principal
+3_Modificado modulo de materiales, agrando campos CATEGORIA,SUBCATEGORIA,STOCK CRITICO 
+y CANTIDAD
+4_Agregado nuevo Modulo de Cotizaciones de materiales
+5_Agregado nuevo Modulo de Herramientas para la insersion de las Listas Desplegables.
+6_Nuevos Privilegios agregados al Modulo de Herramientas Administrativas
+
+REVISION 1411.
+1_Edicion de modulo de Materiales/Productos en campo Id Proveedor, para lograr mas 
+eficacia en la busqueda de informacion
+2_Edicion de modulo de Nota de Pedido/Orden de Compra en campo Id Proveedor, para 
+lograr mas eficacia en la busqueda de informacion
+3_Edicion de modulo Nota de Pedido/Orden de Compra en submodulo de llamado a materiales 
+para lograr una busqueda mas Eficaz
+4_Edicion de modulo de Recepcion de Productos en campo Id Proveedor, para lograr mas
+ eficacia en la busqueda de informacion
+5_Edicion de modulo de Nueva Herramienta o Equipo en campo Id Proveedor, para lograr 
+mas eficacia en la busqueda de informacion
+6_Edicion de modulo Salida de Materiales en submodulo de llamado a materiales para 
+lograr una busqueda mas Eficaz
+7_Edicion de modulo de Facturas en campo Id Proveedor, para lograr mas eficacia en 
+la busqueda de informacion
+8_Edicion de modulo de Documento Despacho en campo Id Proveedor, para lograr 
+mas eficacia en la busqueda de informacion
+9_Fortalecimiento de login a recorrido de tercerpaso por inyeccion de codigo
+10_mejora de objetos vinculados a el Reestablecer los usuarios y contraseñas.
+
+REVISION 1401.
+1_Eliminado sistema de busqueda dada la poca eficiencia
+2_Se permite edicion y busqueda de registros en modulos, resguardado mediante codigo
+3_Implementacion de sistema de reestablecimiento de Contraseñas
+4_Una mayor seguridad en login de usuarios
+5_Mejora considerable de respuesta en archivo Back End
+6_El sistema de auditoria ya se encuentra inpmementado,pero esta inactivo, ya que 
+se deben reaizar pruebas con informacion masiva y en entornos multiusuarios
+
+REVISION 1397.
+1_eliminado referencia circular en consultas dependientes de historias de ingresos
+2_mayor seguridad en la licencia del sistema CGI4 con la inclusion de archivo testigo 
+para asegurar la valides de la licencia
+3_Avance importante en modulo de auditorias que estara disponible en la proxima 
+actualizacion
+4_Modificacion en la mayoria de informes de apoyo
+5_El sistema ya reconoce quien ingresa la informacion
+6_Se elimina en su totalidad las relaciones existentes, las cuales ya no se utilizaban
+7_Mejora en la retrocompatibilidad, con este item se puede regresar de una
+actualizacion actual a una anterior
+
+REVISION 1393.
+Esta es una actualizacion de compatibilidad en diferentes sistemas operativos valida 
+para todas las versiones incluidos windows 10. se han reemplazado y eliminado alguna 
+de las librerias para mejorar en un 100% la compatibilidad con los diferentes sistemas
+operativos.
+
+REVISION 1391.
+1_Implementado sistema de impresion rapida de registros de salida de materiales
+2_Resuelto parametros de salida de materiales
+3_Modificacion de algunos Informes
+
+REVISION 1385.
+1_Nuevo sistema de impresion rapida en modulo Ordenes de Compras
+2_Nuevo sistema de impresion rapida en modulo Salida de Materiales
+(Disponible en proxima Actualizacion)
+3_Eliminada Campo Validar Rut, ya que no es universal
+4_Solucion de error campo pais en modulo super administrador correspondiente
+ al apartado de registro de la aplicacion
+5_Solucion de error de llamada (medida y valor neto) en campos de informes f
+acturas pendientes y facturas pagadas
+6_Solucion Muestreo de fecha en informe Ordenes de Compras Pendientes
+7_Agregado en modulo de busqueda vinculacion a todos los modulos
+8_Agregado campo Id para identificar registros u equipos en informes Listado 
+de Equipos,Listado de Materiales entre otros
+9_Se Destaca en el modulo de inventario en menu principal los numero 
+negativos dentro del mismo.
+10_Reordenamiento de grafica Principal de modulo incorporado
+
+REVISION 1376.
+1_Actualizacion de todo el sistema de privilegios del sistema CGI4
+2_Modulo de Actualizaciones incorporado, permitiendo actualizar la version 
+del sistema sin menoscabo de la informacion
+3_Sistema de reconocimiento de usuarios para una mejora del perfil del usuario
+4_Avance en sistema de auditorias internas que estara disponible en proximas 
+actualizaciones
+5_Añadido elemento para crear copias de seguridad de la base de datos
+6_Nuevo metodo de escala para una  mejor prestacion en la resolucion de pantalla 
+en Dashboard
+7_Implementacion de mayor seguridad en login de usuario
+8_Nuevo metodo de seleccion en resoluciones del sistema
+9_Nuevo apartado de creacion de notas para una muestra a modo de informacion 
+para todos los usuarios del sistema
+10_Selector de Modulos en el Dashboard que muestra distintos elementos
+11_Eliminado campos de adjuntos en historial de ingresos 
+12_ Eliminado Historial de ingresos, por falla en su estructura, la cual se 
+resolvera en futuras actualizaciones
+
+
